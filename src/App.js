@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import { Link, Route,Redirect } from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Hea from "./components/Hea";
+import Sea from "./components/Sea";
+import ShowPage from "./components/ShowPage";
+import List from "./components/List";
+import FooterPages from "./components/FooterPages";
+
+import "./App.css";
+
+export default class App extends Component {
+  state = {
+    ShowListPage: false,
+  };
+  handleShowListPage = (flagbool) => {
+    this.setState({ ShowListPage: flagbool });
+  };
+  render() {
+    console.log("this.state.ShowListPage:",this.state.ShowListPage);
+    return (
+      <div>
+        <div className="Hea">
+          <Hea />
+        </div>
+        <div className="Sea">
+          <Sea
+            handleShowListPage={this.handleShowListPage}
+            ShowListPage={this.state.ShowListPage}
+          />
+        </div>
+        <div className="Route_box">
+
+               {/* <Route path="/*" element={<ShowPage />} />  */}
+                <Route path="/about" component={ShowPage } />
+                <Route path="/home" component={List }  />
+                <Redirect  to='/about'/>
+        </div>
+      </div>
+    );
+  }
 }
-
-export default App;

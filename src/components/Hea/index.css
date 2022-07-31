@@ -1,0 +1,57 @@
+ul{
+    /* width: 1115px; */
+    margin: 0;
+    height: 54px;
+    padding: 0 ;
+    /*  */
+}
+.Hea_box li{
+    display: inline-block;
+    list-style:none;
+    margin-left: 0;
+    height: 54px;
+}
+.Hea_box li:nth-child(1){
+    width: 179px;
+    height: 54px;
+}
+.Hea_box li:nth-child(2){
+    width: 99px;
+}
+.Hea_box li:nth-child(3){
+    width: 101px;
+}
+.Hea_box li:nth-child(4){
+    width: 159px;
+}
+.Hea_box li:nth-child(5){
+    width: 130px;
+}
+.Hea_box .Hea_li{
+    width: 390px;
+    border-right: 0.8px solid rgb(184, 181, 181);
+}
+.Hea_box li:nth-child(7){
+    margin-top: 0;
+}
+.Hea_box li div{
+    font-size: 14px;
+    
+}
+
+.nav_pic{
+    background-image: url(../../../public/assets/alogo-unlogin.9b9c161b.png) ;
+    width: 150px;
+    height: 30px;
+    z-index: 1;
+    background-size:cover;
+     margin-top: 5px;
+    /*margin-left: 10px; */
+}
+.nav_r{
+    display: inline-block;
+}
+.nav_r .anticon svg {
+    height: 20px;
+    width: 20px;
+}

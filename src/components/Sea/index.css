@@ -1,0 +1,67 @@
+.search_shiping{
+    display: inline-block;
+    width: 128px;
+    height: 32px;
+    color: #FFFFFF;
+    font-size: 32px;
+    font-family:PingFangSC-Regular;
+    line-height: 32px;
+    text-align: center;
+    margin-top:40px; 
+    margin-left: 657px;
+    opacity:1;
+    margin-bottom: 12px;
+}
+.search_font{
+    display: inline-block;
+    width: 600px;
+    height: 28px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family:PingFangSC-Regular;
+    line-height: 28px;
+    text-align: center;
+    margin-top:26px; 
+    margin-left: 420px;
+    opacity:1;
+   
+}
+.search_lr{
+    height: 80px;
+    padding-left: 348.5px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.search_span_l{
+    padding: 0;
+    display: inline-block;
+    width: 575px;
+    height: 40px;
+    background-color: #FFFFFF ;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border: none;
+    outline: none;
+    background: #FFFFFF;
+    border-radius: 4px 0 0 4px;
+    border-radius: 4px 0px 0px 4px;
+}
+.search_span_r{
+    padding: 0;
+    display: inline-block;
+    width: 160px;
+    height: 40px;
+    background-color: #FF8A2B ;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border: none;
+    outline: none;
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0.53px;
+    text-align: center;
+    border-radius: 0 4px 4px 0;
+    border-radius: 0px 4px 4px 0px;
+}

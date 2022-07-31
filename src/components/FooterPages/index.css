@@ -1,0 +1,10 @@
+/* li {
+    list-style-type: none
+} */
+.FooterPage_box{
+    width: 1340px;
+    height: 20px; 
+    text-align: right;
+    margin-bottom: 105px;
+    /* background-color: rgb(226, 66, 66); */
+}
